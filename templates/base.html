@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+	<link href="https://getbootstrap.com/docs/5.0/examples/navbar-static/" rel="canonical">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+    	<ul><li><a href="/">BEST FREE MOVIE WEBSITE</a><P>FOR STREAMING AND DOWNLOADING</P></li>
+    	</ul>
+    </div>
+
+  </div>
+</nav>
+	<div class="box">
+		<h1 id='h1'>Search</h1>
+		
+		<form action="{{ url_for('search') }}" method="post" enctype="multipart/form-data">
+			<input type="text" name="newsearch" placeholder="Type...">
+			<input type="submit" value="Search"/>
+		</form >
+	</div>
+
+</body></html>

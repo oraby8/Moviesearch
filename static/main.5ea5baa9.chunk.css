@@ -1,0 +1,60 @@
+body
+{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background:#1d1d1d;color:#fff}
+code{font-family:source-code-pro,Menlo,Monaco,Consolas,"Courier New",monospace}
+.browse-movie img{object-fit:contain;max-width:201px;height: 15rem;margin:10px; border:5px solid #f1f1f1;transition:transform .5s}
+
+
+.browse-movie img:hover{transform:scale(1.03);transition:.15s}
+.browse-movie-bottom{max-width:300px;padding:0 5px}
+.browse-movie-bottom a{font-weight:500;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.browse-movie-bottom a,.browse-movie-bottom a:hover{text-decoration:none;color:#fff}
+.browse-movie-year{color:#919191;font-weight:500}
+.moviedetaildownload p a{color:#fff;text-decoration:none;border:1px solid #fff;padding:5px 8px;font-weight:500}
+header p{font-size:22px;font-weight:500}
+header p span{font-weight:700;font-size:26px;color:#6ac045}
+
+
+
+input[type="submit"]
+{
+	position: relative;
+	width:	120px;
+	height: 40px;
+	border:	none;
+	outline: none;
+	cursor: pointer;
+	background: #ffc107;
+	color: #fff;
+    text-decoration: none;
+    margin: 4px 2px;
+    float: right;
+}
+input[type="submit"]:hover
+{
+	background: #ff5722;
+}
+input
+{
+	position: relative;
+	display: inline-block;
+	font-size: 20px;
+	box-sizing: border-box;
+	transition: .5s;
+}
+.column {
+	float: left;
+	width: 50%;
+	flex: 50%;
+  }
+.trans {
+	float: center;
+  }
+
+span {
+	float: center;
+	font-size: 14px;
+	color: grey;
+  }
+
+
+/*# sourceMappingURL=main.5ea5baa9.chunk.css.map */
